@@ -8,7 +8,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$skillPath = Join-Path $PSScriptRoot ".." "skills" "literallyme" "SKILL.md"
+$skillPath = Join-Path (Join-Path (Join-Path (Join-Path $PSScriptRoot "..") "skills") "literallyme") "SKILL.md"
 
 if (-not (Test-Path $skillPath)) {
     Write-Error "skill.md not found"
@@ -16,11 +16,22 @@ if (-not (Test-Path $skillPath)) {
 }
 
 $content = Get-Content -Raw -Path $skillPath
+
+$frontmatter = ""
+if ($content -match "(?s)^---\r?\n(.*?)\r?\n---") {
+    $frontmatter = $Matches[1]
+}
+
+if ([string]::IsNullOrEmpty($frontmatter)) {
+    Write-Error "Frontmatter block not found"
+    exit 1
+}
+
 $required = @("name:", "version:", "description:")
 $missing = @()
 
 foreach ($field in $required) {
-    if ($content -notmatch "^$field") {
+    if ($frontmatter -notmatch "(?m)^$field") {
         $missing += $field
     }
 }

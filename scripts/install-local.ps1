@@ -8,8 +8,8 @@
 
 $ErrorActionPreference = "Stop"
 
-$source = Join-Path $PSScriptRoot ".." "skills" "literallyme" "SKILL.md"
-$targetDir = Join-Path (Get-Location) ".claude" "skills"
+$source = Join-Path (Join-Path (Join-Path (Join-Path $PSScriptRoot "..") "skills") "literallyme") "SKILL.md"
+$targetDir = Join-Path (Join-Path (Get-Location) ".claude") "skills"
 $target = Join-Path $targetDir "literallyme.md"
 
 if (-not (Test-Path $source)) {
