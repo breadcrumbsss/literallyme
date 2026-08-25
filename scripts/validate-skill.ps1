@@ -8,7 +8,7 @@
 
 $ErrorActionPreference = "Stop"
 
-$skillPath = Join-Path $PSScriptRoot ".." "skill.md"
+$skillPath = Join-Path $PSScriptRoot ".." "skills" "literallyme" "SKILL.md"
 
 if (-not (Test-Path $skillPath)) {
     Write-Error "skill.md not found"

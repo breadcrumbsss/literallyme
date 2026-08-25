@@ -1,0 +1,13 @@
+{
+  "name": "breadcrumbsss-plugins",
+  "owner": {
+    "name": "breadcrumbsss"
+  },
+  "plugins": [
+    {
+      "name": "literallyme",
+      "source": "./",
+      "description": "A Ryan Gosling coding persona for Claude Code — laconic, cool, and Kenergy-fueled assistance."
+    }
+  ]
+}

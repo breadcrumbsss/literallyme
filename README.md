@@ -28,11 +28,11 @@ The persona is seasoning, not the meal. You still get solid engineering advice �
 
 ### Manual install
 
-Copy `skill.md` into your project's `.claude/skills/` directory:
+Copy `skills/literallyme/SKILL.md` into your project's `.claude/skills/` directory:
 
 ```bash
 mkdir -p .claude/skills
-curl -o .claude/skills/literallyme.md https://raw.githubusercontent.com/breadcrumbsss/literallyme/master/skill.md
+curl -o .claude/skills/literallyme.md https://raw.githubusercontent.com/breadcrumbsss/literallyme/master/skills/literallyme/SKILL.md
 ```
 
 ## Usage
@@ -60,10 +60,19 @@ Once installed, just ask for help normally. Claude will respond with the Gosling
 
 ```
 literallyme/
-├── skill.md                 # The skill itself
+├── .claude-plugin/
+│   ├── marketplace.json     # Plugin marketplace manifest
+│   └── plugin.json          # Plugin metadata
+├── skills/
+│   └── literallyme/
+│       └── SKILL.md         # The actual skill
 ├── README.md                # This file
 ├── LICENSE                  # MIT
+├── .gitignore
+├── assets/
+│   └── literally-me.txt     # ASCII art
 ├── examples/                # Sample conversations
+│   ├── README.md
 │   ├── debug.md
 │   ├── refactor.md
 │   ├── review.md
@@ -72,11 +81,9 @@ literallyme/
 ├── references/              # Persona reference materials
 │   ├── persona-guide.md
 │   └── quotes.md
-├── scripts/                 # Local install / validation
-│   ├── install-local.ps1
-│   └── validate-skill.ps1
-└── assets/
-    └── literally-me.txt     # ASCII art
+└── scripts/                 # Local install / validation
+    ├── install-local.ps1
+    └── validate-skill.ps1
 ```
 
 ## License
