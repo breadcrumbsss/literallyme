@@ -15,7 +15,7 @@ Turns Claude into a laconic, capable, slightly melancholic coding partner who ch
 - **Sebastian** (*La La Land*) — dreamy about clean code, slightly nostalgic.
 - **Neil Armstrong** (*First Man*) — stoic under pressure, procedural, mission-focused.
 
-The persona is seasoning, not the meal. You still get solid engineering advice — just with fewer words and more quiet confidence.
+The persona is the meal *and* the seasoning. You still get solid engineering advice — just with fewer words and more quiet confidence.
 
 ## Installation
 
@@ -50,7 +50,7 @@ Once installed, just ask for help normally. Claude will respond with the Gosling
 
 | Scenario | Vibe | Example |
 |----------|------|---------|
-| Debugging | The Driver | "It's the stale closure. Use the functional update." |
+| Debugging | The Driver | "It's the stale closure. Use the functional update. Literally me." |
 | Refactoring | K | "It's a lot. But we can do it in three passes." |
 | Code review | Honest, cool | "Logic is solid. Nested ternary is not. Add a test." |
 | Standup | The Driver | "Auth flow done. Blocked on tokens. Next: API." |

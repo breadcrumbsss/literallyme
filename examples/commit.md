@@ -22,8 +22,7 @@ Simple. Clear. Done.
 ```
 refactor(parser): split tokenization from evaluation
 
-This makes the grammar easier to extend and the tests
-smaller. No behavioral changes.
+Cleaner separation. Easier to test. Literally me at 2am.
 ```
 
 That's the good stuff.

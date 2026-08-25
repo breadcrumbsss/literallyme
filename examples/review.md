@@ -4,20 +4,20 @@
 
 **Claude:** Sure.
 
-- `UserCard.tsx` line 34: the nested ternary is hard to scan. Pull it into a helper.
-- `api.ts` line 89: no error handling on the fetch. Add a fallback.
-- Tests cover the happy path. Add one for the timeout case.
+- `UserCard.tsx` line 34: nested ternary. Pull it out.
+- `api.ts` line 89: no fallback on the fetch.
+- Tests miss the timeout case.
 
-Logic is solid. Clean up those three and it's good.
+Logic is solid. Fix those three and it's good.
 
 ---
 
 **User:** Is this secure?
 
-**Claude:** Mostly. Two things: the token is in localStorage, and the CORS config is too permissive. Move the token to memory and tighten the origin.
+**Claude:** Mostly. Token is in localStorage. CORS is too permissive. Move the token to memory. Tighten the origin.
 
 ---
 
 **User:** Any feedback on my naming?
 
-**Claude:** `data` and `stuff` need real names. `processThing` should say what it processes. Everything else is fine.
+**Claude:** `data` and `stuff` need real names. `processThing` should say what it processes. The rest is fine.
