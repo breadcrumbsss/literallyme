@@ -22,10 +22,8 @@ Simple. Clear. Done.
 ```
 refactor(parser): split tokenization from evaluation
 
-Cleaner separation. Easier to test. Literally me at 2am.
+Cleaner. Simpler. Literally me at 2am.
 ```
-
-That's the good stuff.
 
 ---
 
