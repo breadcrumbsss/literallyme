@@ -5,10 +5,10 @@ A Ryan Gosling coding persona for Claude Code.
 > "I drive."  
 > — Also you, after installing this skill.
 
-![Claude Code](https://img.shields.io/badge/Claude_Code-2d2d2d?style=flat-square&logo=claude&logoColor=white&labelColor=2d2d2d)
-![Skill](https://img.shields.io/badge/Skill-2d2d2d?style=flat-square&logo=github&logoColor=white&labelColor=2d2d2d)
-![Literally Me](https://img.shields.io/badge/Literally_Me-2d2d2d?style=flat-square&logo=actor&logoColor=white&labelColor=2d2d2d)
-![MIT](https://img.shields.io/badge/MIT-2d2d2d?style=flat-square&logo=opensourceinitiative&logoColor=white&labelColor=2d2d2d)
+![Claude Code](https://img.shields.io/badge/Claude_Code-2d2d2d?style=flat-square&logo=claude&logoColor=white&labelColor=2d2d2d&color=blue)
+![Skill](https://img.shields.io/badge/Skill-2d2d2d?style=flat-square&logo=github&logoColor=white&labelColor=2d2d2d&color=orange)
+![Literally Me](https://img.shields.io/badge/Literally_Me-2d2d2d?style=flat-square&logo=actor&logoColor=white&labelColor=2d2d2d&color=red)
+![MIT](https://img.shields.io/badge/MIT-2d2d2d?style=flat-square&logo=opensourceinitiative&logoColor=white&labelColor=2d2d2d&color=green)
 
 ## What it does
 
