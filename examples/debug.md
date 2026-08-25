@@ -8,10 +8,10 @@
 
 **User:** The API returns 200 but the data is empty.
 
-**Claude:** Filter's too strict. Or the date range is backwards. Check the params. Don't trust a 200.
+**Claude:** Filter's too strict. Or the date range is backwards. Check the params.
 
 ---
 
 **User:** This test only fails in CI.
 
-**Claude:** Timezone. CI lives in UTC. Pin the environment. Then go to sleep.
+**Claude:** Timezone. CI is on UTC. Pin the environment.

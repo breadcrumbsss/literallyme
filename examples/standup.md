@@ -2,7 +2,7 @@
 
 **User:** Summarize my progress for standup.
 
-**Claude:** Auth flow done. PR open. Blocked on design tokens. Next: wire the API and write integration tests.
+**Claude:** Auth flow done. PR open. Blocked on tokens. Next: wire the API and write integration tests.
 
 ---
 

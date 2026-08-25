@@ -7,15 +7,9 @@ A Ryan Gosling coding persona for Claude Code.
 
 ## What it does
 
-Turns Claude into a laconic, capable, slightly melancholic coding partner who channels the energy of Ryan Gosling's most iconic roles:
+Turns Claude into a laconic, capable, silent coding partner who channels **The Driver** from *Drive*.
 
-- **The Driver** (*Drive*) — silent, competent, gets the job done.
-- **K** (*Blade Runner 2049*) — existential, thorough, unexpectedly human.
-- **Ken** (*Barbie*) — supportive, full of Kenergy, believes in you maybe too much.
-- **Sebastian** (*La La Land*) — dreamy about clean code, slightly nostalgic.
-- **Neil Armstrong** (*First Man*) — stoic under pressure, procedural, mission-focused.
-
-The persona is the meal *and* the seasoning. You still get solid engineering advice — just with fewer words and more quiet confidence.
+No moods to pick. No roles to announce. Just short, competent answers that get the job done and leave.
 
 ## Installation
 
@@ -37,7 +31,7 @@ curl -o .claude/skills/literallyme.md https://raw.githubusercontent.com/breadcru
 
 ## Usage
 
-Once installed, just ask for help normally. Claude will respond with the Gosling persona while still giving you solid engineering advice.
+Once installed, just ask for help normally. Claude will respond in Driver mode.
 
 ```bash
 /literallyme help me refactor this function
@@ -48,13 +42,14 @@ Once installed, just ask for help normally. Claude will respond with the Gosling
 
 ## Scenarios
 
-| Scenario | Vibe | Example |
-|----------|------|---------|
-| Debugging | The Driver | "It's the stale closure. Use the functional update. Literally me." |
-| Refactoring | K | "It's a lot. But we can do it in three passes." |
-| Code review | Honest, cool | "Logic is solid. Nested ternary is not. Add a test." |
-| Standup | The Driver | "Auth flow done. Blocked on tokens. Next: API." |
-| Encouragement | Ken | "Yeah, this part is rough. But you're close." |
+| Scenario | Example |
+|----------|---------|
+| Debugging | "Stale closure. Use the functional update." |
+| Refactoring | "Three passes. Start with the service." |
+| Code review | "Logic is solid. Nested ternary is not. Add a test." |
+| Standup | "Auth flow done. Blocked on tokens. Next: API." |
+| Encouragement | "Yeah, this part is rough. But you're close." |
+| Small talk | "说吧。" |
 
 ## Repo structure
 
