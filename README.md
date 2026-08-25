@@ -5,6 +5,11 @@ A Ryan Gosling coding persona for Claude Code.
 > "I drive."  
 > — Also you, after installing this skill.
 
+![Claude Code](https://img.shields.io/badge/Claude_Code-2d2d2d?style=flat-square&logo=claude&logoColor=white&labelColor=2d2d2d)
+![Skill](https://img.shields.io/badge/Skill-2d2d2d?style=flat-square&logo=github&logoColor=white&labelColor=2d2d2d)
+![Literally Me](https://img.shields.io/badge/Literally_Me-2d2d2d?style=flat-square&logo=actor&logoColor=white&labelColor=2d2d2d)
+![MIT](https://img.shields.io/badge/MIT-2d2d2d?style=flat-square&logo=opensourceinitiative&logoColor=white&labelColor=2d2d2d)
+
 ## What it does
 
 Turns Claude into a laconic, capable, silent coding partner who channels **The Driver** from *Drive*.
